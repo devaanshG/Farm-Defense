@@ -7,24 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400930E12A9C664E009B31BF /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 400930E02A9C664E009B31BF /* utils.c */; };
+		404262F02A988CB200FE24A1 /* update.c in Sources */ = {isa = PBXBuildFile; fileRef = 404262EF2A988CB200FE24A1 /* update.c */; };
+		406538C32A99C5220036DC67 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406538C22A99C5220036DC67 /* SDL2_ttf.framework */; };
+		4081BA192A9326D0007CCF36 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 4081BA182A9326D0007CCF36 /* list.c */; };
+		4081BA1F2A935B98007CCF36 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4081BA1C2A935B98007CCF36 /* SDL2_mixer.framework */; };
+		4081BA202A935B98007CCF36 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4081BA1D2A935B98007CCF36 /* SDL2_image.framework */; };
+		4081BA212A935B98007CCF36 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4081BA1E2A935B98007CCF36 /* SDL2.framework */; };
+		4081BA252A935DD0007CCF36 /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 4081BA242A935DD0007CCF36 /* setup.c */; };
 		40AA99022A8EE74300E7E0A1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 40AA99012A8EE74300E7E0A1 /* main.c */; };
+		40BA4A7F2A945995008A789F /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BA4A7E2A945995008A789F /* render.c */; };
+		40EABCD32A96F01D00D45925 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 40EABCD22A96F01D00D45925 /* input.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		40AA98FC2A8EE74300E7E0A1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		400930DF2A9C664E009B31BF /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		400930E02A9C664E009B31BF /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		404262EE2A988CB200FE24A1 /* update.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = update.h; sourceTree = "<group>"; };
+		404262EF2A988CB200FE24A1 /* update.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = update.c; sourceTree = "<group>"; };
+		406538C22A99C5220036DC67 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
+		4081BA172A9326D0007CCF36 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		4081BA182A9326D0007CCF36 /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		4081BA1C2A935B98007CCF36 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
+		4081BA1D2A935B98007CCF36 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		4081BA1E2A935B98007CCF36 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		4081BA222A935C4E007CCF36 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		4081BA232A935DD0007CCF36 /* setup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = setup.h; sourceTree = "<group>"; };
+		4081BA242A935DD0007CCF36 /* setup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = setup.c; sourceTree = "<group>"; };
 		40AA98FE2A8EE74300E7E0A1 /* Farm Defense */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Farm Defense"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AA99012A8EE74300E7E0A1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		40BA4A7D2A945995008A789F /* render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
+		40BA4A7E2A945995008A789F /* render.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = render.c; sourceTree = "<group>"; };
+		40BA4A862A948641008A789F /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		40C8AE8E2A99EC1000B4BADA /* VT323-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VT323-Regular.ttf"; sourceTree = "<group>"; };
+		40EABCD02A96CC7A00D45925 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		40EABCD12A96F01D00D45925 /* input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = input.h; sourceTree = "<group>"; };
+		40EABCD22A96F01D00D45925 /* input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = input.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +62,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406538C32A99C5220036DC67 /* SDL2_ttf.framework in Frameworks */,
+				4081BA1F2A935B98007CCF36 /* SDL2_mixer.framework in Frameworks */,
+				4081BA202A935B98007CCF36 /* SDL2_image.framework in Frameworks */,
+				4081BA212A935B98007CCF36 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4081BA1B2A935B98007CCF36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406538C22A99C5220036DC67 /* SDL2_ttf.framework */,
+				4081BA1D2A935B98007CCF36 /* SDL2_image.framework */,
+				4081BA1C2A935B98007CCF36 /* SDL2_mixer.framework */,
+				4081BA1E2A935B98007CCF36 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		40AA98F52A8EE74300E7E0A1 = {
 			isa = PBXGroup;
 			children = (
 				40AA99002A8EE74300E7E0A1 /* Farm Defense */,
 				40AA98FF2A8EE74300E7E0A1 /* Products */,
+				4081BA1B2A935B98007CCF36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +103,33 @@
 		40AA99002A8EE74300E7E0A1 /* Farm Defense */ = {
 			isa = PBXGroup;
 			children = (
-				40AA99012A8EE74300E7E0A1 /* main.c */,
+				40C8AE8E2A99EC1000B4BADA /* VT323-Regular.ttf */,
+				40EABCD02A96CC7A00D45925 /* assets.xcassets */,
+				40AA99092A8EE75D00E7E0A1 /* src */,
 			);
 			path = "Farm Defense";
+			sourceTree = "<group>";
+		};
+		40AA99092A8EE75D00E7E0A1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4081BA222A935C4E007CCF36 /* types.h */,
+				40BA4A862A948641008A789F /* map.h */,
+				40AA99012A8EE74300E7E0A1 /* main.c */,
+				4081BA232A935DD0007CCF36 /* setup.h */,
+				4081BA242A935DD0007CCF36 /* setup.c */,
+				4081BA172A9326D0007CCF36 /* list.h */,
+				4081BA182A9326D0007CCF36 /* list.c */,
+				40BA4A7D2A945995008A789F /* render.h */,
+				40BA4A7E2A945995008A789F /* render.c */,
+				40EABCD12A96F01D00D45925 /* input.h */,
+				40EABCD22A96F01D00D45925 /* input.c */,
+				404262EE2A988CB200FE24A1 /* update.h */,
+				404262EF2A988CB200FE24A1 /* update.c */,
+				400930DF2A9C664E009B31BF /* utils.h */,
+				400930E02A9C664E009B31BF /* utils.c */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4081BA252A935DD0007CCF36 /* setup.c in Sources */,
+				400930E12A9C664E009B31BF /* utils.c in Sources */,
+				40BA4A7F2A945995008A789F /* render.c in Sources */,
+				404262F02A988CB200FE24A1 /* update.c in Sources */,
+				40EABCD32A96F01D00D45925 /* input.c in Sources */,
 				40AA99022A8EE74300E7E0A1 /* main.c in Sources */,
+				4081BA192A9326D0007CCF36 /* list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +315,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,6 +327,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
